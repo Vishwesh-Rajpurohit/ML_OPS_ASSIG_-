@@ -16,7 +16,7 @@ To reproduce the run:
    - `WANDB_API_KEY`
    - `HF_TOKEN`
 4. Run all cells in sequence.
-5. During execution, the training logs will be recorded in Weights & Biases, and the trained model can then be pushed to Hugging Face Hub.
+5. During execution, the training logs will be recorded in Weights & Biases (Wandb), and the trained model can then be pushed to Hugging Face Hub.
 
 ## Results
 
