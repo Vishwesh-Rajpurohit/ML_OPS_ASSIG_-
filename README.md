@@ -1,20 +1,22 @@
 # DistilBERT Goodreads Genre Classifier
 
-This project fine-tunes **DistilBERT** to classify Goodreads reviews into book genres using a Kaggle notebook with GPU support. The workflow includes model training and evaluation in Kaggle, experiment tracking with Weights & Biases, and model publishing on Hugging Face Hub.
+This repository contains an MLOps assignment on genre classification of Goodreads reviews using DistilBERT. The model was fine-tuned in a Kaggle notebook with GPU support, the experiments were tracked in Weights & Biases, and the final checkpoint was published on Hugging Face Hub.
 
-## Project summary
+## Overview
 
-The goal of this project is to build a simple end-to-end MLOps workflow for text classification. A pre-trained DistilBERT model was fine-tuned on the UCSD Goodreads review dataset and evaluated on a held-out test split. The full training workflow was run in Kaggle, tracked in W&B for reproducibility, and the final trained model was pushed to a public Hugging Face repository.
+The objective of this work was to build and document a simple end-to-end text classification pipeline. For this, a pre-trained DistilBERT model was adapted to the UCSD Goodreads review dataset and evaluated on a separate test split. The full workflow was executed in Kaggle so that training, logging, and model sharing could be handled in one place.
 
-## Setup instructions
+## Setup
+
+To reproduce the run:
 
 1. Open the Kaggle notebook linked below.
-2. Enable GPU and Internet in the Kaggle notebook settings.
-3. Add the required Kaggle Secrets:
+2. In the notebook settings, enable both GPU and Internet.
+3. Add the following Kaggle Secrets:
    - `WANDB_API_KEY`
    - `HF_TOKEN`
-4. Run the notebook from top to bottom.
-5. The training run will be logged to Weights & Biases, and the trained model can be pushed to Hugging Face Hub.
+4. Run all cells in sequence.
+5. During execution, the training logs will be recorded in Weights & Biases, and the trained model can then be pushed to Hugging Face Hub.
 
 ## Results
 
@@ -31,12 +33,12 @@ The goal of this project is to build a simple end-to-end MLOps workflow for text
 | Test Loss | 2.38206 |
 | Test Runtime | 15.1941 |
 
-## Project links
+## Project Links
 
 - Kaggle Notebook: [ML_OPS_Assignment](https://www.kaggle.com/code/vishveshrg25ait2130/ml-ops-1/notebook)
 - Weights & Biases Dashboard: [W&B Project](https://wandb.ai/g25ait2130-indian-institute-of-technology-jodhpur/huggingface/overview)
 - Hugging Face Model: [VishweshR/distilbert-goodreads-genres](https://huggingface.co/VishweshR/distilbert-goodreads-genres/tree/main)
 
-## Notes
+## Remarks
 
-This repository is intended to support the assignment workflow and make the experiment easy to inspect. The main focus is on the pipeline setup: Kaggle training, W&B tracking, and public model hosting through Hugging Face.
+This repository mainly documents the assignment pipeline and its outputs. The emphasis is on showing the complete workflow clearly: Kaggle-based training, experiment tracking through W&B, and public model hosting on Hugging Face.
