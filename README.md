@@ -36,7 +36,9 @@ To reproduce the run:
 ## Project Links
 
 - Kaggle Notebook: [ML_OPS_Assignment](https://www.kaggle.com/code/vishveshrg25ait2130/ml-ops-1/notebook)
-- Weights & Biases Dashboard: [W&B Project]([https://wandb.ai/g25ait2130-indian-institute-of-technology-jodhpur/huggingface/overview](https://wandb.ai/g25ait2130-indian-institute-of-technology-jodhpur/huggingface/table?nw=nwuserg25ait2130))
+
+- Weights & Biases Dashboard: [W&B](https://wandb.ai/g25ait2130-indian-institute-of-technology-jodhpur/huggingface/table?nw=nwuserg25ait2130)
+
 - Hugging Face Model: [VishweshR/distilbert-goodreads-genres](https://huggingface.co/VishweshR/distilbert-goodreads-genres/tree/main)
 
 ## Remarks
